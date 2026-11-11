@@ -1,0 +1,1 @@
+ALTER TABLE "notifications" ALTER COLUMN "case_id" SET NOT NULL;

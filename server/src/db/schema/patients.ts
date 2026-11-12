@@ -13,6 +13,10 @@ export const patients = pgTable("patients", {
 
     email: varchar("email", { length: 255 }),
 
+    archivedAt: timestamp("archived_at", {
+        withTimezone: true,
+    }),
+
     createdAt: timestamp("created_at", {
         withTimezone: true,
     })
